@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ## ⚡ Запуск
 
 ```bash
-python3 server.py
+python3 sw4rm.py
 ```
 
 По умолчанию сервер слушает `0.0.0.0:4444`.
