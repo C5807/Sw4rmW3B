@@ -41,8 +41,8 @@ sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="repla
 init(autoreset=True)
 
 # Telegram Bot settings
-TG_BOT_TOKEN = "8418053107:AAE_sKogjin1pSR4Jz0IqMnB0LBCR9Vb8mk"
-TG_CHAT_ID = "817515456"
+TG_BOT_TOKEN = "ВАШ_ТОКЕН_БОТА"
+TG_CHAT_ID = "ВАШ_ТГ_ID"
 bot = telebot.TeleBot(TG_BOT_TOKEN)
 
 clients = {}  # {client_name: {"socket": sock, "addr": addr, "info": info, "cwd":"/"}}
