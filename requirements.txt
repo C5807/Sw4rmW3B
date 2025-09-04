@@ -1,0 +1,4 @@
+colorama
+requests
+pyTelegramBotAPI
+readline; sys_platform != "win32"
